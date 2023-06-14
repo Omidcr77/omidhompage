@@ -1,0 +1,27 @@
+/* styles.css */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.contact-details,
+.services {
+  margin-top: 16px;
+  color: white;
+}
+
+.services ul {
+  list-style: disc;
+  padding-left: 20px;
+}
